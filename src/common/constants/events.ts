@@ -50,6 +50,9 @@ export const EVENT_NAME = {
   twinnyTextSelection: "twinny-text-selection",
   twinnyToolApproval: "twinny-tool-approval",
   twinnyToolStop: "twinny-tool-stop",
+  twinnyOpenChange: "twinny-open-change",
+  twinnyUndoChanges: "twinny-undo-changes",
+  twinnyOpenAgentSettings: "twinny-open-agent-settings",
   twinnyToolSteps: "twinny-tool-steps",
   twinnyUpdateContextItems: "twinny-update-context-items",
   twinnyWorkspaceSearch: "twinny-workspace-search"
@@ -75,6 +78,9 @@ export const EMBEDDING_EVENT_NAME = {
 
 export const PROVIDER_EVENT_NAME = {
   addProvider: "twinny.add-provider",
+  getChatGPTPlanStatus: "twinny.get-chatgpt-plan-status",
+  signInChatGPTPlan: "twinny.sign-in-chatgpt-plan",
+  signOutChatGPTPlan: "twinny.sign-out-chatgpt-plan",
   previewTeam: "twinny.preview-team",
   applyTeam: "twinny.apply-team",
   cancelTeam: "twinny.cancel-team",
